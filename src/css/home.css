@@ -1,0 +1,29 @@
+.card{
+    height: 590px;
+    margin-bottom: 40px;
+}
+.card:hover{
+    background: linear-gradient(to bottom, #ffffff, #FFE38C);
+}
+/* Make active dot highlighted */
+.slick-dots li.slick-active div {
+    background-color: #EAD492 !important;
+    transform: scale(1.2);
+    transition: transform 0.3s ease;;
+    margin-right: 100px;
+  }
+  
+  
+.frame-4{
+    background: radial-gradient(circle,#d3b961,#020101 50%);
+    height: 550px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    padding: 100px;
+}
+.btn{
+    border-radius: 40px;
+    font-size: small;
+    font-weight: bold;
+    
+}

@@ -1,0 +1,30 @@
+.seo-footer {
+    background-color: #151515;
+    text-align: center;
+    border-top: 1rem solid var(--foreground);
+    border-bottom: 1rem solid var(--foreground);
+}
+.seo-footer h2 {
+    color: var(--foreground);
+    font-weight: 800;
+    margin-bottom: 1rem !important;
+}
+
+.seo-footer p {
+    color: var(--text-color-white);
+    font-weight: 400;
+    font-size: 0.96rem;
+    margin: 1rem auto !important;
+    width: 70%;
+}
+
+.seo-footer a {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+  width: 120px;
+  padding: 0.5rem 0;
+  color: var(--text-color) !important;
+  text-align: center;
+  margin: 3rem auto 0 auto !important;
+}

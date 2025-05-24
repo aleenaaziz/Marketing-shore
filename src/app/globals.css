@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #FBCD3E;
+  --additional: #000;
+  --text-color: #000;
+  --text-color-white: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #FBCD3E;
+    --additional: #000;
+    --text-color: #000;
+    --text-color-white: #fff;
+
+  }
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* overflow-x  : hidden;  */
+}
+
+
+body {
+  color: var(--text-color);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.scroll-content {
+  will-change: transform;
+}
+
+.scrollbar-track-y {
+  width: 8px !important;
+  background: transparent !important;
+  right: 2px !important;
+}
+
+/* The vertical thumb */
+.scrollbar-thumb-y {
+  background-color: var(--foreground) !important;  /* Replace with your color */
+  border-radius: 4px !important;
+}
+
+/* Optional horizontal scrollbar if needed */
+.scrollbar-track-x {
+  height: 6px !important;
+  background: transparent !important;
+  bottom: 2px !important;
+}
+
+.scrollbar-thumb-x {
+  background-color: var(--foreground) !important;
+  border-radius: 4px !important;
+}
+
+
+.header .heder-top {
+  background-color: var(--foreground);
+}

@@ -1,0 +1,184 @@
+.custom-btn {
+  font-size: 0.8rem;
+  border-radius: 1rem;
+  /* line-height: 1; */
+  padding: 0.3rem 2rem;
+  border: none;
+}
+
+.primary-btn {
+  background-color: var(--foreground);
+  color: var(--text-color);
+}
+
+.bold-btn {
+  font-weight: bold;
+}
+
+ol {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+
+a {
+  color: var(--text-color-white) !important;
+  text-decoration: none !important;
+}
+
+a,
+p,
+h1,
+ol,
+ul,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 !important;
+}
+
+svg {
+  width: 0.9rem;
+}
+
+/* ***************  Navlist  *************** */
+
+.navlist.mobile {
+  display: none;
+}
+
+.navlist a {
+  font-size: 0.9rem !important;
+}
+
+.navlist.horizontal ol {
+  flex-direction: column;
+}
+
+/* ***************  Navlist  *************** */
+
+/* ***************  Social Links  *************** */
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social-links svg {
+  width: 0.9rem;
+  height: 0.9rem;
+  fill: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.social-links .icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+.social-links .icon::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+}
+
+.social-links .icon.facebook::after {
+  background-color: #3b5998;
+}
+
+.social-links .icon.twitter::after {
+  background-color: #1da1f2;
+}
+
+.social-links .icon.youtube::after {
+  background-color: #cd201f;
+}
+
+/* ***************  Social Links  *************** */
+
+
+/* ***************  Bar Chart  *************** */
+.barChart .bar-inner .inner-top {
+  display: flex;
+  align-items: end;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.barChart .bar-inner .inner-top p:first-child {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.barChart .bar-inner .inner-top p:last-child {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-color);
+  margin: 0;
+}
+
+/* ***************  Bar Chart  *************** */
+
+.seo-services {
+  height: 800px;
+  background-color: #F8F8F8;
+  /* background-image: url("/images/Vector 9.png"); */
+  background-repeat: no-repeat;
+  /* background-position: 10px 100%; */
+  background-size: cover;
+  background-position: top;
+
+  padding: 3rem 0;
+}
+
+.seo-services .head h2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.seo-services .head h2 span {
+  color: var(--foreground);
+}
+
+.react-tel-input {
+  color: #000;
+}
+
+.react-tel-input input {
+  padding-left: 3rem !important;
+}
+
+@media screen and (max-width: 800px) {
+  .social-links {
+    display: none;
+  }
+}
+
+/* @media screen and (max-width: 700px) {
+  .header .heder-top {
+    display: none;
+  }
+} */
+
+@media screen and (max-width: 660px) {
+  .navlist.desktop {
+    display: none;
+  }
+
+  .navlist.mobile {
+    display: block;
+  }
+}
