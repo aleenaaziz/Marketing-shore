@@ -1,0 +1,17 @@
+.main{
+    width: full;
+    height:auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.second-frame{
+    width: full;
+    background: #FBCD3E    ;
+    height: 1150px;
+}
+.card{
+    width: 330px;
+    background: #FFECB2;
+    height: 420px;
+}

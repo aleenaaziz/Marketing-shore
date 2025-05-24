@@ -39,22 +39,35 @@ export const linkList = [
     link: "/",
     children: [],
   },
+
   {
     id: 1,
+    title: "About Us",
+    link: "/location/aboutUs",
+    children: [],
+  },
+  {
+    id: 2,
     title: "Seo In Florida",
     link: "/location/florida",
     children: [],
   },
   {
-    id: 2,
+    id: 3,
     title: "Seo In Pakistan",
     link: "/location/pakistan",
     children: [],
   },
   {
-    id: 3,
+    id: 4,
     title: "Blog",
     link: "/location/blog",
+    children: [],
+  },
+  {
+    id: 5,
+    title: "Contact",
+    link: "/location/contact",
     children: [],
   },
 ];
