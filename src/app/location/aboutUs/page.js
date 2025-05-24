@@ -136,14 +136,15 @@ const About = () => {
       </div>
 
       {/* frame # 4 */}
-      <div className="bg-black min-h-screen text-white font-sans p-6 h-[1500px]">
+      <div className="bg-black min-h-screen text-white font-sans p-6 h-[1500px] mt-10">
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
 
           {/* Row 1 */}
           <div className="relative top-0">
             <TeamCard
               name="Fuzail Anwar"
-              role="CEO\nSEO EXPERT"
+              role="CEO"
+              work="SEO EXPERT"
               image="/images/about/fuzail.png"
             />
           </div>
@@ -151,7 +152,8 @@ const About = () => {
           <div className="relative top-96">
             <TeamCard
               name="Muhammad Hasan"
-              role="SEO Executive /\nMarketing Member"
+              role="SEO Executive"
+              work="Marketing Member"
               image="/images/about/hasan.png"
             />
           </div>
@@ -159,7 +161,8 @@ const About = () => {
           <div className="relative top-0">
             <TeamCard
               name="Muhammad Huzaifa"
-              role="SEO Executive /\nMarketing Member"
+              role="SEO Executive"
+              work="Marketing Member"
               image="/images/about/huzaifa.png
               "
             />
@@ -169,7 +172,8 @@ const About = () => {
           <div className="relative top-36">
             <TeamCard
               name="Sarim Raza"
-              role="Web Designer /\nWordPress Developer"
+              role="Web Designer"
+              work="WordPress Developer"
               image="/images/about/sarim.png"
             />
           </div>
@@ -177,7 +181,8 @@ const About = () => {
           <div className="relative top-36 left-[440px]">
             <TeamCard
               name="Bilal Ahmed"
-              role="SEO Executive /\nProjects Manager"
+              role="SEO Executive  "
+              work="Projects Manager"
               image="/images/about/bilal.png"
             />
           </div>
@@ -187,17 +192,18 @@ const About = () => {
     </>
     
   );
-  function TeamCard({ name, role, image }) {
+  function TeamCard({ name, role, image,work }) {
     return (
-      <div className="flex flex-col items-center text-center">
+      <div className="flex flex-col ">
         <img
           src={image}
           alt={name}
           className="rounded-lg mb-4 w-[350px] h-full object-cover"
         />
         <h2 className="text-lg font-semibold">{name}</h2>
-        <hr className="bg-white"/>
+        <hr className="bg-white border-white w-80"/>
         <p className="text-sm whitespace-pre-line">{role}</p>
+        <p className="text-sm whitespace-pre-line">{work}</p>
       </div>
     );
   }
