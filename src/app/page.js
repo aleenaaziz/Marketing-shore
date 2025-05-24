@@ -113,7 +113,7 @@ export default function Home() {
         </div>
       </div>
       {/* frame #3 */}
-      <div className="bg-slate-50 mt-36 w-full ">
+      <div className="bg-slate-50 mt-36 w-full h-[1000px]">
         <div className="text-4xl font-bold pt-16 leading-tight text-center">
           Our Affordable Digital{" "}
           <div className="text-yellow-500"> Marketing Services</div>

@@ -1,7 +1,6 @@
-.card{
-    height: 590px;
-    margin-bottom: 40px;
-}
+/* .card{
+    margin-bottom: 0px;
+} */
 .card:hover{
     background: linear-gradient(to bottom, #ffffff, #FFE38C);
 }
